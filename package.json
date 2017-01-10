@@ -1,6 +1,6 @@
 {
   "name": "broccoli-export-text",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Broccoli plugin that converts selected text files to JavaScript files with es6 export statements.",
   "main": "index.js",
   "author": "Jake Detels",
@@ -14,7 +14,9 @@
     "javascript"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.1.12",
-    "jsesc": "0.3.0"
+    "broccoli-plugin": "^1.3.0",
+    "glob": "^7.1.1",
+    "jsesc": "0.3.0",
+    "mkdirp": "^0.5.1"
   }
 }
